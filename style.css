@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Luxurious+Roman&family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Luxurious+Roman&family=Poppins:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Lobster+Two:ital,wght@1,700&family=Luxurious+Roman&family=Poppins:wght@300;400;600;700&display=swap');
 
 * {
   margin: 0;
@@ -97,3 +98,173 @@ section.content-wrapper.tambah-barang {
 section.content-wrapper.tambah-barang div.form-wrapper {
   width: 800px;
 }
+
+/* Login */
+body.login section.login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 60vw 40vw;
+}
+
+body.login section.login-wrapper div.foto {
+  /* width: 50vw; */
+  height: 100%;
+}
+
+body.login section.login-wrapper div.form-login-wrapper {
+  /* width: 40vw; */
+  height: 100%;
+  /* padding: 3em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 145, 98);
+}
+
+body.login section.login-wrapper div.form-login-wrapper form.form-login {
+  width: 55%;
+  margin-bottom: 1.4em;
+}
+
+body.login section.login-wrapper div.form-login-wrapper form.form-login label {
+  color:rgb(34, 48, 72);
+  font-weight: 500;
+}
+
+body.login section.login-wrapper div.form-login-wrapper form.form-login input {
+  font-size: .8rem;
+  padding: 1em;
+  border-radius: .8em;
+}
+
+body.login section.login-wrapper div.form-login-wrapper form.form-login button.btn-login {
+  width: 100%;
+  background-color: rgb(48, 124, 255);
+  border-radius: 5em;
+  margin-top: 1.2em;
+  font-weight: 500;
+}
+
+body.login section.login-wrapper div.form-login-wrapper form.form-login button.btn-login,
+body.login section.login-wrapper div.form-login-wrapper form.form-login label,
+body.login section.login-wrapper div.form-login-wrapper form.form-login .text-muted {
+  margin-left: .2em;
+}
+
+body.login section.login-wrapper div.form-login-wrapper h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1em;
+  color:rgb(34, 48, 72);
+}
+
+body.login section.login-wrapper div.form-login-wrapper p {
+  font-weight: 400;
+  color:rgb(34, 48, 72);
+}
+
+body.login section.login-wrapper div.form-login-wrapper p a {
+  font-weight: 600;
+}
+
+
+/* Halaman Awal */
+
+body.halaman-awal section.content-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+body.halaman-awal section.content-wrapper div.header {
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+body.halaman-awal section.content-wrapper div.header h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 3.4rem;
+  color:rgb(34, 48, 72);
+}
+
+body.halaman-awal section.content-wrapper div.header p {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+body.halaman-awal section.content-wrapper div.content {
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  justify-content: center;
+  gap: 2em;
+}
+
+body.halaman-awal section.content-wrapper div.content div.penjual,
+body.halaman-awal section.content-wrapper div.content div.pembeli {
+  height: 66em;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2em;
+}
+
+body.halaman-awal section.content-wrapper div.content div.penjual div.gambar ,
+body.halaman-awal section.content-wrapper div.content div.pembeli div.gambar {
+  width: 100%;
+  height: 45em;
+  /* background-color: rgb(255, 145, 98); */
+  /* margin: 1em 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+body.halaman-awal section.content-wrapper div.content div.penjual div.gambar h1,
+body.halaman-awal section.content-wrapper div.content div.pembeli div.gambar h1 {
+  color: rgba(152, 152, 152, 0.849);
+  font-weight: 600;
+}
+
+body.halaman-awal section.content-wrapper div.content div.penjual img ,
+body.halaman-awal section.content-wrapper div.content div.pembeli img {
+  width: 80%;
+  height: 80%;
+}
+
+/* body.halaman-awal section.content-wrapper div.content div.penjual {
+  background-color: aqua;
+}
+
+body.halaman-awal section.content-wrapper div.content div.pembeli {
+  background-color: salmon;
+} */
+
+body.halaman-awal section.content-wrapper div.content div h2 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 3rem;
+  color:rgb(34, 48, 72);
+}
+
+body.halaman-awal section.content-wrapper div.content div .btn {
+  width: 100%;
+  padding: .6em;
+  border-radius: 2em;
+}
+
+/* body.halaman-awal section.content-wrapper div.content div .btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+} */
