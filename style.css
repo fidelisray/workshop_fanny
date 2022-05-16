@@ -268,3 +268,9 @@ body.halaman-awal section.content-wrapper div.content div .btn {
   color: white;
   font-weight: 400;
 } */
+
+/* Login */
+body.login section.login-wrapper div.foto {
+  display: flex;
+  align-items: center;
+}

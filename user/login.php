@@ -12,7 +12,9 @@
   </head>
   <body class="login">
     <section class="login-wrapper">
-      <div class="foto"></div>
+      <div class="foto">
+        <img class="foto-login-pembeli" src="../image/login4-afterfigma.svg" alt="Login Pembeli">
+      </div>
       <div class="form-login-wrapper">
         <h3>Selamat Datang</h3>
         <form class="form-login" method="post">
